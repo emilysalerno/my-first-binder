@@ -1,0 +1,98 @@
+---
+title: "BIOS 512 Homework 2"
+output: pdf_document
+---
+
+## Load Necessary Packages...
+
+If you need to install tidyverse, you can use install.packages("tidyverse"). If you already have tidyverse installed, you can just load the package:
+
+```{r, results="hide", message=FALSE, warning=FALSE}
+library(tidyverse);
+```
+
+## Question 1
+
+What are three ways that we can assign the value of 25 to y?
+
+## Question 2
+
+How would I print the following line, including the quotes, in R?\
+**He said, "I'm Garth Marenghi. Author. Dreamweaver. Visionary. Plus actor."**
+
+## Question 3
+
+What if I wanted to add backslashes into the statement from Question 1 to make the statement below?\
+**He said, "I'm Garth Marenghi. Author\\Dreamweaver\\Visionary. Plus actor."**
+
+## Question 4
+
+Show two ways to get the following array: 1 2 3
+
+## Question 5
+
+What does R call things like +, -, sin(), c(), etc? What about \<-?
+
+## Question 6
+
+What's the difference in the way R processes the while() and the for() below?
+
+```{r}
+x <- 0;
+while (x <= 3) {
+    x <- x + 1;
+}
+x
+
+for(y in c(1,2,3)) {
+     y <- y + 1;
+}
+y
+```
+
+## Question 7
+
+Create the Pythagorean formula and evaluate it with a=3 and b=4. Print the output.
+
+## Question 8
+
+Load the help for the built in sin() function.
+
+## Question 9
+
+Which version of the counter function works? What is the difference in the way R processes the two functions?
+
+```{r}
+counter1 <- function(start, step){
+    val <- start;
+    function(){
+        old_val <- val;
+        val <- val + step;
+        old_val;
+    }
+}
+counter_from_1 <- counter1(1,1);
+counter_from_1()
+counter_from_1()
+
+counter2 <- function(start, step){
+    val <- start;
+    function(){
+        old_val <- val;
+        val <<- val + step;
+        old_val;
+    }
+}
+counter_from_1 <- counter2(1,1);
+counter_from_1()
+counter_from_1()
+```
+
+## Question 10
+
+a)  Use read_csv the cars.csv and store it in a data frame.
+b)  Then, group the data frame by Make, get averages across the numeric variables, and then sort by Volume in descending order. Hint: Use summarise(across(c(<variable list>), mean)) to get the averages.
+
+## Question 11
+
+Make a function that returns the Fibonacci sequence, then call it 7 times to return the first 7 values of the sequence. Use the correct counter function from question 9 for inspiration.
