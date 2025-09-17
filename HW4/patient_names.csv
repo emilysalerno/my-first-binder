@@ -1,0 +1,36 @@
+﻿patient_id,name,hospital_id,condition_id
+P001,Mary Hicks,H1,C
+P002,Matthew Christensen,H5,HD
+P003,Lisa Graham,H5,A
+P004,Greg Brown,H3,HD
+P005,Joshua Baker,H1,HD
+P006,Wendy Richardson,H3,A
+P007,April Sanchez,H5,A
+P008,Melinda Moody,H3,S
+P009,Dylan Lopez DVM,H1,A
+P010,Maria Bruce,H5,F
+P011,Kristine Lewis,H4,A
+P012,Jessica Ibarra,H2,F
+P013,Matthew Rogers,H4,F
+P014,Joseph Thompson,H3,F
+P015,Holly Contreras,H1,HD
+P016,Heather Chandler,H1,A
+P017,John Brown,H1,A
+P018,Nathan Chase,H2,HD
+P019,Casey Norman,H1,A
+P020,Nicholas Smith MD,H1,C
+P021,Mary Cobb,H5,S
+P022,Thomas Logan,H4,C
+P023,Anthony Anderson,H4,F
+P024,Matthew Jones,H3,A
+P025,Kathryn Harrison,H5,F
+P026,Jose Young,H5,C
+P027,Samuel Herrera,H2,C
+P028,Wanda Simmons,H5,F
+P029,Whitney Fuller,H3,C
+P030,John Rodriguez,H4,C
+P031,John Ibarra,H1,C
+P032,Erica Foley,H1,C
+P033,Spencer Wells,H5,S
+P034,Holly Mclaughlin,H3,HD
+P035,Ashley Johnson,H1,HD
